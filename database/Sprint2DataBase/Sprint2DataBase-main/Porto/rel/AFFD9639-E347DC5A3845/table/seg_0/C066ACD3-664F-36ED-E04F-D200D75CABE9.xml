@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C066ACD3-664F-36ED-E04F-D200D75CABE9" name="TB_ACS_MODAL">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:54:12 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modal" id="DCC533F6-452D-7067-68ED-FFE02C71B416">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:43 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_modal" id="07946595-755E-78D5-46C6-6B22D8171D6E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:43 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade_modal" id="1C0E9D4C-7C33-2012-B2F1-35C071A68E31">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:43 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidade_intermodal" id="033BEDE1-605E-B687-C3B5-8036F40A91BF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:43 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2CD56E2-1434-D4F1-5121-4F9B136599BD" name="tb_acs_modal_id_modal_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:43 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC533F6-452D-7067-68ED-FFE02C71B416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

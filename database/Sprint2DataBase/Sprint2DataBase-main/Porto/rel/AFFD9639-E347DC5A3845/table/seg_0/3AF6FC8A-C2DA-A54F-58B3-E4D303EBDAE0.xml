@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AF6FC8A-C2DA-A54F-58B3-E4D303EBDAE0" name="TB_ACS_ORDEMSERVICO">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 20:00:21 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ordemservico" id="212A64FD-828C-563C-AE9D-7F904C9631E1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:00 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_acs_ordemservico_tb_acs_veiculo_id_veiculo_fk" id="DEA9E397-2D20-2CFC-94D0-AB7810DCD0DA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:46 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FD5EA96-6474-2404-23FE-1259BE1E383A" referredColumn="51631738-2FE7-1F47-8734-0CDBE010BABF"/>
+</associations>
+</Column>
+<Column name="tb_acs_ordemservico_tb_acs_user_id_user_fk" id="37D71AF1-41FA-1B32-263B-8AC3644EB8D3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:52:09 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF675F14-8FA6-9151-3248-6C68E60664D5" referredColumn="2E86125A-9230-6BFC-08B5-403AFC0AB232"/>
+</associations>
+</Column>
+<Column name="tb_acs_ordemservico_tb_acs_modal_id_modal_fk" id="492B4F06-0219-3F41-1FF0-1C676D748A5F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:56 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75751DE9-C2C6-346F-726B-07B802EA7D08" referredColumn="DCC533F6-452D-7067-68ED-FFE02C71B416"/>
+</associations>
+</Column>
+<Column name="descricao_ordemservico" id="34CCCF10-8DB6-F55C-3290-54A0B0A77CAF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:00 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tempo_resposta" id="3D0C0EB4-8E6A-9310-85EE-01517F445521">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:00 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_ordemservico" id="6ADC5C4C-9F67-2BB7-B2FD-2D89B0117DC5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:00 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao_ordemservico" id="B688B235-DFC2-5BDA-5C79-68E4455E95E3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:00 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC664829-2E9B-BB99-03FE-8292F12EC268" name="tb_acs_ordemservico_id_ordemservico_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:00 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="212A64FD-828C-563C-AE9D-7F904C9631E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="186CB2E7-7AB0-BDFB-5E37-C8D400F5844A" name="tb_acs_ordemservico_tb_acs_veiculo_id_veiculo_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:44:46 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEA9E397-2D20-2CFC-94D0-AB7810DCD0DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AF6FB5C-EA0E-5E2B-30AC-9FAA1E4B865C" name="tb_acs_ordemservico_tb_acs_user_id_user_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:52:09 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37D71AF1-41FA-1B32-263B-8AC3644EB8D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CCFB44F-268E-CCFE-8F3C-D39FFEF0CBB5" name="tb_acs_ordemservico_tb_acs_modal_id_modal_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:57:56 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492B4F06-0219-3F41-1FF0-1C676D748A5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

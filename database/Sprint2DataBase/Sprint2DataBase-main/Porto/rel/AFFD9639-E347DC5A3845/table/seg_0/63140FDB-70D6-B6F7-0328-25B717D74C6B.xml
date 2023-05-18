@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63140FDB-70D6-B6F7-0328-25B717D74C6B" name="TB_ACS_USER">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:47:37 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="2E86125A-9230-6BFC-08B5-403AFC0AB232">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_acs_user_tb_acs_veiculo_id_veiculo_fk" id="D129AE0A-AF72-391D-505B-04FDBDBD2C94">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:51:08 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04850B9B-5EEE-3C36-A39E-09831322D4FF" referredColumn="51631738-2FE7-1F47-8734-0CDBE010BABF"/>
+</associations>
+</Column>
+<Column name="nome_user" id="218940DA-82DC-B380-EA69-5474F5718536">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf_user" id="2A75F1CC-BF5A-4103-FC34-3EE591BC65FA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_user" id="D778532D-16F6-F421-FF4B-E8B807F4B237">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_user" id="9294D8FC-A5EC-8C05-6459-AACB85190987">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_user" id="A6A9979E-B122-8BD7-367C-57B07F7D8363">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15720FB1-8052-8CBA-984E-B7452B4F913E" name="tb_acs_user_id_user_pk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:50:16 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E86125A-9230-6BFC-08B5-403AFC0AB232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37059F18-7A7F-30F6-DC12-2207681B9668" name="tb_acs_user_tb_acs_veiculo_id_veiculo_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:51:08 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D129AE0A-AF72-391D-505B-04FDBDBD2C94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
