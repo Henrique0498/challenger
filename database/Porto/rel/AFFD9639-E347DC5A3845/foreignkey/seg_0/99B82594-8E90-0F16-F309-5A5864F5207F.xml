@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99B82594-8E90-0F16-F309-5A5864F5207F" containerWithKeyObject="225F13E1-CB16-A82D-200C-99E39272849F" localFKIndex="9A4E2ED4-F747-6A5E-8A9A-3E95A19CB107" name="tb_acs_apolice_tb_acs_modeloapolice_id_modeloapolice_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 22:05:30 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<referredTableLongName>TB_ACS_MODELOAPOLICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08B5A5C2-B4B4-AB86-3C15-B72FAEB1F772</referredTableID>
+<keyObject>A3520D9A-B477-F437-6206-0068EDCF3CAE</keyObject>
+<referredKeyID>A3520D9A-B477-F437-6206-0068EDCF3CAE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_modeloapolice</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

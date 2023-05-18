@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FFB5715-2A40-D25A-2925-258921E83A37" name="TB_ACS_MODELO">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:52:39 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_modelo" id="D1DAED35-77C0-7343-6D29-84407274B3A6">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:53:57 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tb_acs_modelo_tb_acs_veiculo_id_veiculo" id="EC7E1B8F-5B6A-E47C-9450-9C9D939769C5">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 20:01:35 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27779C3C-4C88-C9D0-0443-FC7EFF890FF0" referredColumn="51631738-2FE7-1F47-8734-0CDBE010BABF"/>
+</associations>
+</Column>
+<Column name="tipo_veiculo" id="4F832089-B88D-1557-C6C1-49DB5CF1BFC4">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:53:57 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria_veiculo" id="A02ED5E2-BF70-9CB8-C2C2-637109A74F19">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:53:57 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dimensoes_veiculo" id="E2DDDD25-1DA8-DD35-8FFF-5C5447DE8136">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:53:57 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B25BC06A-233C-7B71-661C-85E8ED690C1F" name="tb_acs_modelo_id_modelo_pk">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:53:57 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1DAED35-77C0-7343-6D29-84407274B3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7AFD8E5-BDCE-8A9D-64DC-E68610E702A3" name="tb_acs_modelo_tb_acs_veiculo_id_veiculo">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 20:01:35 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC7E1B8F-5B6A-E47C-9450-9C9D939769C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

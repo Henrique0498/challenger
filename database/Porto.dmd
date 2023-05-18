@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Porto" id="650D5DD8-ED34-72BB-6158-BED7D8F9D3C7" version="3.5">
+<createdBy>lucka</createdBy>
+<createdTime>2023-05-10 19:52:28 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>650D5DD8-ED34-72BB-6158-BED7D8F9D3C7</designId>
+</OSDM_Design>

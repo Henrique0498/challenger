@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF675F14-8FA6-9151-3248-6C68E60664D5" containerWithKeyObject="3AF6FC8A-C2DA-A54F-58B3-E4D303EBDAE0" localFKIndex="0AF6FB5C-EA0E-5E2B-30AC-9FAA1E4B865C" name="tb_acs_ordemservico_tb_acs_user_id_user_fk">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-05-10 21:52:09 UTC</createdTime>
+<ownerDesignName>Porto</ownerDesignName>
+<referredTableLongName>TB_ACS_USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63140FDB-70D6-B6F7-0328-25B717D74C6B</referredTableID>
+<keyObject>15720FB1-8052-8CBA-984E-B7452B4F913E</keyObject>
+<referredKeyID>15720FB1-8052-8CBA-984E-B7452B4F913E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_user</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
